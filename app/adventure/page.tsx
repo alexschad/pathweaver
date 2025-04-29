@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Adventure from "./adventure";
 import { GoogleGenAI } from "@google/genai";
 
+export const dynamic = "force-dynamic";
 export const metadata: Metadata = {
     title: "New Adventure",
 };
