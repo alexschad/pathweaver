@@ -1,0 +1,251 @@
+[
+    {
+      "id": 1,
+      "title": "The Forgotten Island",
+      "text": "You awaken to the gentle rocking of a small raft. In every direction, the endless blue ocean stretches to the horizon, except for one place: an island, shrouded in mist. With no memory of how you got here and only a pocket knife in your hand, you drift closer to the shore.\n\nAs the raft bumps against the sand, you must choose your next move. Will you head into the dense jungle in search of shelter, or follow the coastline to look for signs of life?",
+      "win": false,
+      "fail": false,
+      "children": [2, 3]
+    },
+    {
+      "id": 2,
+      "title": "Into the Jungle",
+      "text": "Pushing past the thick foliage, you enter the steamy jungle. Strange calls echo around you, and shadows dart between the trees. You notice two distinct paths: one lined with strange glowing plants, and another leading toward the sound of rushing water.\n\nThe jungle feels alive, almost as if it’s watching you. Which path will you take?",
+      "win": false,
+      "fail": false,
+      "children": [4, 5]
+    },
+    {
+      "id": 3,
+      "title": "Along the Coast",
+      "text": "You walk along the beach, the sun blazing above you. The coastline curves ahead where a crumbling structure juts out from the trees. Farther down, smoke rises lazily into the sky.\n\nYou could investigate the ruins or head toward the smoke — perhaps a sign of other survivors or something far more dangerous.",
+      "win": false,
+      "fail": false,
+      "children": [6, 7]
+    },
+    {
+      "id": 4,
+      "title": "Path of Glowing Plants",
+      "text": "You step onto the glowing path, your skin tingling as you brush past the luminous flora. The plants pulse with a faint light, illuminating a small clearing where a strange totem stands. It hums faintly, and you feel drawn to it.\n\nDo you touch the totem and see what happens, or back away cautiously and continue deeper into the jungle?",
+      "win": false,
+      "fail": false,
+      "children": [8, 9]
+    },
+    {
+      "id": 5,
+      "title": "Path to the Waterfall",
+      "text": "Following the sound of water, you discover a magnificent waterfall cascading into a crystal pool. Nearby, you spot a boat half-sunken in the mud. It might be salvageable. Alternatively, you see a trail climbing steeply up a rocky cliff beside the falls.\n\nWill you try to fix the boat or take the path up the cliff to get a better view?",
+      "win": false,
+      "fail": false,
+      "children": [10, 11]
+    },
+    {
+      "id": 6,
+      "title": "The Ancient Ruins",
+      "text": "The ruins are old, crumbling under the weight of centuries. Vines snake up broken pillars, and strange symbols are carved into the stone. Inside the largest structure, a stairwell spirals downward into darkness.\n\nDo you descend into the depths, or search the exterior for clues and safer ground?",
+      "win": false,
+      "fail": false,
+      "children": [12, 13]
+    },
+    {
+      "id": 7,
+      "title": "Toward the Smoke",
+      "text": "As you approach the smoke, the trees thin out to reveal a small camp. Someone has clearly been here recently. A pot bubbles over a dying fire, and footprints lead into the jungle.\n\nDo you wait by the camp in hopes the owner returns peacefully, or follow the footprints deeper into the unknown?",
+      "win": false,
+      "fail": false,
+      "children": [14, 15]
+    },
+    {
+      "id": 8,
+      "title": "Touch the Totem",
+      "text": "As you touch the totem, a wave of energy courses through you. Visions flash before your eyes — the island’s past, its guardians, and the terrible curse laid upon it. You collapse to the ground, gasping.\n\nWhen you awake, you find a map burned into the dirt beside you. Do you follow the map immediately or rest and regain your strength first?",
+      "win": false,
+      "fail": false,
+      "children": [16, 17]
+    },
+    {
+      "id": 9,
+      "title": "Avoid the Totem",
+      "text": "You resist the totem’s pull and move cautiously around it. Soon, you discover a hidden grove where fruits and fresh water are abundant. It’s an ideal place to rest and plan your next move.\n\nDo you settle in and create a base here, or continue searching for a way off the island?",
+      "win": false,
+      "fail": false,
+      "children": [18, 19]
+    },
+    {
+      "id": 10,
+      "title": "Salvage the Boat",
+      "text": "You spend hours dragging the boat from the mud and patching the holes with vines and resin. Just as you finish, ominous clouds gather overhead and the wind picks up.\n\nDo you risk setting sail now, or wait out the storm?",
+      "win": false,
+      "fail": false,
+      "children": [20, 21]
+    },
+    {
+      "id": 11,
+      "title": "Climb the Cliff",
+      "text": "The climb is treacherous, but you eventually reach the summit. From here, you can see the entire island — and spot a hidden lagoon to the north and a smoking volcano to the west.\n\nWhich destination do you choose to explore?",
+      "win": false,
+      "fail": false,
+      "children": [22, 23]
+    },
+    {
+      "id": 12,
+      "title": "Descend the Stairwell",
+      "text": "The stairwell spirals down into a cavern lit by faintly glowing crystals. Strange machinery hums deep within the earth. At the center, a pedestal holds a glowing gem.\n\nDo you take the gem or leave it alone and explore further?",
+      "win": false,
+      "fail": false,
+      "children": [24, 25]
+    },
+    {
+      "id": 13,
+      "title": "Search the Exterior",
+      "text": "As you circle the ruins, you discover a stone tablet covered in ancient writing. You also find a sealed door partially hidden behind vines.\n\nWill you attempt to decipher the writing or try to force the door open?",
+      "win": false,
+      "fail": false,
+      "children": [26, 27]
+    },
+    {
+      "id": 14,
+      "title": "Wait at the Camp",
+      "text": "You wait by the campfire as dusk falls. Eventually, a group of survivors emerges cautiously from the forest. They are wary but willing to talk.\n\nWill you join them and form an alliance, or strike out on your own to avoid potential betrayal?",
+      "win": false,
+      "fail": false,
+      "children": [28, 29]
+    },
+    {
+      "id": 15,
+      "title": "Follow the Footprints",
+      "text": "You follow the footprints deep into the jungle and stumble upon a hidden village. The villagers are hostile, mistaking you for an enemy.\n\nDo you try to explain yourself or flee before they attack?",
+      "win": false,
+      "fail": false,
+      "children": [30, 31]
+    },
+    {
+      "id": 16,
+      "title": "Follow the Map",
+      "text": "You follow the map through the treacherous jungle, avoiding traps and pitfalls. Eventually, you find a hidden dock where an old seaplane rests, miraculously intact.\n\nYou have found a way off the island! Victory!",
+      "win": true,
+      "fail": false,
+      "children": []
+    },
+    {
+      "id": 17,
+      "title": "Rest First",
+      "text": "As you rest, you’re attacked by unseen creatures from the jungle. You fight valiantly, but they overwhelm you.\n\nYour adventure ends here.",
+      "win": false,
+      "fail": true,
+      "children": []
+    },
+    {
+      "id": 18,
+      "title": "Build a Base",
+      "text": "You establish a safe haven and survive for many weeks. However, the isolation weighs heavily on you, and you eventually succumb to despair.\n\nThis is a quiet end to your journey.",
+      "win": false,
+      "fail": true,
+      "children": []
+    },
+    {
+      "id": 19,
+      "title": "Search for Escape",
+      "text": "You push onward and discover a radio tower, long abandoned. After days of repair work, you manage to send a distress signal.\n\nA rescue team finds you — you are saved!",
+      "win": true,
+      "fail": false,
+      "children": []
+    },
+    {
+      "id": 20,
+      "title": "Sail into the Storm",
+      "text": "Braving the storm proves fatal. The sea tosses your fragile boat like a toy, and it eventually capsizes.\n\nYou are lost to the ocean.",
+      "win": false,
+      "fail": true,
+      "children": []
+    },
+    {
+      "id": 21,
+      "title": "Wait Out the Storm",
+      "text": "You wisely wait for the storm to pass. When the skies clear, you sail safely to another nearby island where a research outpost stands.\n\nYou are rescued!",
+      "win": true,
+      "fail": false,
+      "children": []
+    },
+    {
+      "id": 22,
+      "title": "Explore the Lagoon",
+      "text": "The lagoon is peaceful and full of fish. You craft a raft from fallen trees and drift to another island within sight.\n\nThere, a rescue ship finds you. Freedom is yours!",
+      "win": true,
+      "fail": false,
+      "children": []
+    },
+    {
+      "id": 23,
+      "title": "Explore the Volcano",
+      "text": "The volcano is unstable. As you approach, it erupts violently. You have no chance to escape the devastation.\n\nYour journey ends in fire.",
+      "win": false,
+      "fail": true,
+      "children": []
+    },
+    {
+      "id": 24,
+      "title": "Take the Gem",
+      "text": "The moment you lift the gem, the machinery whirs to life — and the cavern begins to collapse. You barely escape with your life, clutching the gem.\n\nLater, the gem’s strange power calls a helicopter to your location. You are saved!",
+      "win": true,
+      "fail": false,
+      "children": []
+    },
+    {
+      "id": 25,
+      "title": "Explore Further",
+      "text": "As you explore deeper, the cavern floods unexpectedly. With no escape, you drown in the cold, dark water.\n\nYour adventure ends here.",
+      "win": false,
+      "fail": true,
+      "children": []
+    },
+    {
+      "id": 26,
+      "title": "Decipher the Writing",
+      "text": "The writings reveal a ritual to summon a rescue boat. You perform the ritual and, miraculously, a ship appears on the horizon.\n\nYou are saved!",
+      "win": true,
+      "fail": false,
+      "children": []
+    },
+    {
+      "id": 27,
+      "title": "Force the Door",
+      "text": "You try to force the door open, but trigger a deadly trap. Spears shoot from the walls, ending your adventure in an instant.\n\nYour journey is over.",
+      "win": false,
+      "fail": true,
+      "children": []
+    },
+    {
+      "id": 28,
+      "title": "Join the Survivors",
+      "text": "Together, you and the other survivors build a raft and escape the island. Cooperation has saved you all.\n\nVictory is yours!",
+      "win": true,
+      "fail": false,
+      "children": []
+    },
+    {
+      "id": 29,
+      "title": "Go Alone",
+      "text": "Alone in the wilderness, you eventually fall victim to the island’s many dangers.\n\nYour story ends here.",
+      "win": false,
+      "fail": true,
+      "children": []
+    },
+    {
+      "id": 30,
+      "title": "Explain Yourself",
+      "text": "With patience and careful gestures, you convince the villagers you mean no harm. They offer you a place among them, and eventually help you build a boat to leave.\n\nFreedom is yours!",
+      "win": true,
+      "fail": false,
+      "children": []
+    },
+    {
+      "id": 31,
+      "title": "Flee the Village",
+      "text": "You run, but the villagers give chase. An arrow strikes you, and you fall.\n\nYour adventure ends in the jungle’s grasp.",
+      "win": false,
+      "fail": true,
+      "children": []
+    }
+  ]
+  

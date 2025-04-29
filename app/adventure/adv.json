@@ -1,0 +1,368 @@
+[
+    {
+        "id": 1,
+        "title": "The Jungle Entrance",
+        "text": "You stand before the looming entrance of the Verdant Jungle. Vines twist over fallen stone pillars, and a mist curls from within, whispering of hidden dangers and lost treasures. Your heart pounds with anticipation and fear.\n\nYou can either head straight into the jungle along a well-worn path, or you can venture off to the side, where a narrow animal trail disappears into thick underbrush.",
+        "children": [
+            2,
+            3
+        ]
+    },
+    {
+        "id": 2,
+        "title": "The Main Path",
+        "text": "You walk the main path, where sunlight barely pierces the dense canopy. Every sound echoes—bird calls, the rustling of unseen creatures, and your own nervous footsteps. After an hour, you come across a fork: one path seems smooth and inviting, while the other descends steeply into a shadowy ravine.\n\nThe smooth path could be safer, but the ravine might hide secrets travelers have missed.",
+        "children": [
+            4,
+            5
+        ]
+    },
+    {
+        "id": 3,
+        "title": "The Animal Trail",
+        "text": "You push through thorny bushes and trip over twisted roots. The animal trail is narrow and wild. Suddenly, you hear a low growl nearby. A jaguar, sleek and deadly, blocks the way forward.\n\nYou can try to scare it off by making noise, or you can slowly back away and find another route.",
+        "children": [
+            6,
+            7
+        ]
+    },
+    {
+        "id": 4,
+        "title": "The Smooth Path",
+        "text": "Following the smooth path, you soon come upon a village hidden in the jungle. The villagers eye you with suspicion but offer you a chance to rest. They warn you about a cursed temple ahead and suggest you seek guidance from their elder.\n\nDo you stay and speak with the elder, or continue on your journey immediately, ignoring their warnings?",
+        "children": [
+            8,
+            9
+        ]
+    },
+    {
+        "id": 5,
+        "title": "The Ravine",
+        "text": "You slip and slide down the muddy walls of the ravine. At the bottom, you find a hidden waterfall and a secret cave behind it. The cave hums with an unnatural energy, and bioluminescent moss lights the walls.\n\nDo you enter the cave to explore, or climb back out and return to the main path?",
+        "children": [
+            10,
+            11
+        ]
+    },
+    {
+        "id": 6,
+        "title": "Facing the Jaguar",
+        "text": "You wave your arms and shout at the jaguar. It snarls and steps forward aggressively. Your heart races—this tactic may not have been wise.\n\nDo you stand your ground and try to intimidate it further, or turn and run?",
+        "children": [
+            12,
+            13
+        ]
+    },
+    {
+        "id": 7,
+        "title": "Backing Away",
+        "text": "You slowly back away, careful not to make sudden movements. The jaguar watches you, muscles tense, but does not pursue. Eventually, you find another faint trail leading deeper into the jungle.\n\nYou spot an ancient stone archway ahead. Do you go through the arch, or continue on the trail?",
+        "children": [
+            14,
+            15
+        ]
+    },
+    {
+        "id": 8,
+        "title": "Speak with the Elder",
+        "text": "The village elder is a stooped woman with eyes sharp as a hawk’s. She tells you of the Heart of the World, warning that only those pure of purpose can claim it. She offers you a blessing to aid your journey.\n\nAccept the blessing and follow her guidance, or respectfully decline and rely on your own instincts?",
+        "children": [
+            16,
+            17
+        ]
+    },
+    {
+        "id": 9,
+        "title": "Ignore the Warning",
+        "text": "You thank the villagers but press on. The jungle grows darker, and soon, strange illusions dance before your eyes. You stumble into a patch of quicksand.\n\nStruggle to escape, or reach for a hanging vine overhead?",
+        "children": [
+            18,
+            19
+        ]
+    },
+    {
+        "id": 10,
+        "title": "Enter the Cave",
+        "text": "You push through the waterfall and enter the glowing cave. Strange symbols line the walls. At its heart lies a small pedestal with a glowing orb atop it.\n\nTouch the orb, or study the symbols first?",
+        "children": [
+            20,
+            21
+        ]
+    },
+    {
+        "id": 11,
+        "title": "Climb Out",
+        "text": "You manage to climb back up the ravine. Exhausted and muddy, you return to the main path where you first started. However, you notice new animal tracks heading north.\n\nFollow the tracks, or stick to the original path?",
+        "children": [
+            22,
+            23
+        ]
+    },
+    {
+        "id": 12,
+        "title": "Intimidate Further",
+        "text": "You roar as loud as you can. The jaguar, startled, retreats into the jungle. Victory surges through you, but the noise has drawn attention. A group of armed bandits emerges from the trees.\n\nFight them, or try to talk your way out?",
+        "children": [
+            24,
+            25
+        ]
+    },
+    {
+        "id": 13,
+        "title": "Run Away",
+        "text": "You turn and sprint. The jaguar gives brief chase, but you manage to lose it. You find yourself by a rushing river with a makeshift raft nearby.\n\nUse the raft to travel downstream, or follow the river on foot?",
+        "children": [
+            26,
+            27
+        ]
+    },
+    {
+        "id": 14,
+        "title": "Through the Archway",
+        "text": "Passing through the archway, a feeling of peace washes over you. You find a hidden grove filled with rare flowers and a small, clear pond. Something glitters at the pond’s bottom.\n\nDive in to investigate, or rest by the pond?",
+        "children": [
+            28,
+            29
+        ]
+    },
+    {
+        "id": 15,
+        "title": "Stay on the Trail",
+        "text": "You stay on the animal trail, which grows rougher and darker. Eventually, you reach a fork: left toward a crumbling ruin, right toward dense, wild jungle.\n\nChoose the ruins, or the wild jungle?",
+        "children": [
+            30,
+            31
+        ]
+    },
+    {
+        "id": 16,
+        "title": "Accept Blessing (Win)",
+        "text": "You accept the elder’s blessing, feeling a warm, protective aura settle around you. Guided by her wisdom, you find the Heart of the World unguarded and pure.\n\nYou lift the crystal, feeling it pulse with life. You have succeeded where so many others failed.\n\n",
+        "children": []
+    },
+    {
+        "id": 17,
+        "title": "Decline Blessing (Fail)",
+        "text": "You thank the elder but refuse her blessing. As you journey on, the jungle seems to conspire against you. Vines entangle your limbs, illusions cloud your mind, and soon you are hopelessly lost.\n\nThe Heart of the World remains hidden, and you are never seen again.\n\n",
+        "children": []
+    },
+    {
+        "id": 18,
+        "title": "Struggle to Escape (Fail)",
+        "text": "You fight against the quicksand, but the more you struggle, the faster you sink. Within minutes, you're swallowed whole by the jungle's deadly embrace.\n\nYour quest ends here.",
+        "children": []
+    },
+    {
+        "id": 19,
+        "title": "Grab the Vine (Win)",
+        "text": "You lunge for the vine and pull yourself free just in time. Gasping, you find yourself at the foot of an ancient stone staircase leading into a temple.\n\nInside, the Heart of the World awaits you, untouched by time.\n\n",
+        "children": []
+    },
+    {
+        "id": 20,
+        "title": "Touch the Orb (Fail)",
+        "text": "As you touch the glowing orb, a pulse of energy throws you backward. Ghostly figures rise from the ground, their hollow eyes staring into your soul.\n\nYou are trapped in the cave forever, a guardian against your will.",
+        "children": []
+    },
+    {
+        "id": 21,
+        "title": "Study the Symbols (Win)",
+        "text": "You study the ancient symbols, discovering a hidden mechanism that reveals a hidden chamber. There, atop a pristine altar, rests the true Heart of the World.\n\nYour wisdom and patience have been rewarded.\n\n",
+        "children": []
+    },
+    {
+        "id": 22,
+        "title": "Follow the Tracks",
+        "text": "You follow the animal tracks into a part of the jungle where strange, glowing plants grow. The air feels charged with magic.\n\nDo you harvest the plants for their power, or leave them untouched?",
+        "children": [
+            32,
+            33
+        ]
+    },
+    {
+        "id": 23,
+        "title": "Stick to the Path",
+        "text": "You stick to the path, eventually reaching an overgrown ziggurat. Mossy steps lead up into the unknown.\n\nClimb the ziggurat, or search its base for hidden entrances?",
+        "children": [
+            34,
+            35
+        ]
+    },
+    {
+        "id": 24,
+        "title": "Fight the Bandits (Fail)",
+        "text": "You draw your weapon and charge. Outnumbered and outmatched, you are quickly overwhelmed.\n\nThe bandits leave you to the mercy of the jungle.",
+        "children": []
+    },
+    {
+        "id": 25,
+        "title": "Talk Your Way Out (Win)",
+        "text": "You raise your hands and offer gifts of food and trinkets. The bandits, impressed by your humility and cleverness, let you pass.\n\nGrateful, you continue your quest unimpeded.",
+        "children": []
+    },
+    {
+        "id": 26,
+        "title": "Use the Raft",
+        "text": "You push the raft into the river and hop aboard. The current sweeps you away, faster than expected. Soon, the river splits.\n\nChoose the left fork, leading into mist, or the right, toward roaring waterfalls?",
+        "children": [
+            36,
+            37
+        ]
+    },
+    {
+        "id": 27,
+        "title": "Follow on Foot",
+        "text": "Walking along the riverbank, you find a rope bridge stretching across. It looks old and frayed.\n\nCross the bridge, or search for another way around?",
+        "children": [
+            38,
+            39
+        ]
+    },
+    {
+        "id": 28,
+        "title": "Dive in",
+        "text": "You dive into the clear water. At the bottom, you retrieve a golden amulet. As you surface, the jungle around you seems to shimmer, revealing hidden paths.\n\nFollow the new path, or stay and search the grove more?",
+        "children": [
+            40,
+            41
+        ]
+    },
+    {
+        "id": 29,
+        "title": "Rest by the Pond (Fail)",
+        "text": "You sit by the pond, lulled by its serenity. Vines creep silently toward you. Before you can react, you are entangled and dragged under the water.\n\nThe jungle claims another victim.",
+        "children": []
+    },
+    {
+        "id": 30,
+        "title": "Choose the Ruins",
+        "text": "You step into the crumbling ruins, where ancient traps lie in wait. Sharp spears spring from hidden holes.\n\nDodge forward quickly, or retreat carefully?",
+        "children": [
+            42,
+            43
+        ]
+    },
+    {
+        "id": 31,
+        "title": "Choose the Jungle",
+        "text": "The wild jungle resists your every step. After hours of struggle, you find a hidden cave entrance guarded by a massive serpent.\n\nFight the serpent, or try to sneak past?",
+        "children": [
+            44,
+            45
+        ]
+    },
+    {
+        "id": 32,
+        "title": "Harvest the Plants (Fail)",
+        "text": "You pluck the glowing plants, but they release toxic spores. Coughing and gasping, you collapse.\n\nThe jungle does not forgive.",
+        "children": []
+    },
+    {
+        "id": 33,
+        "title": "Leave Them (Win)",
+        "text": "Respecting the sacred plants, you leave them untouched. A secret path opens before you, leading straight to the Heart of the World.",
+        "children": []
+    },
+    {
+        "id": 34,
+        "title": "Climb the Ziggurat (Fail)",
+        "text": "You climb the mossy steps, but the stones give way beneath you. You fall, vanishing into darkness.",
+        "children": []
+    },
+    {
+        "id": 35,
+        "title": "Search the Base (Win)",
+        "text": "You find a hidden doorway at the base, leading you into a treasure chamber where the Heart of the World gleams.",
+        "children": []
+    },
+    {
+        "id": 36,
+        "title": "Left Fork (Fail)",
+        "text": "The mist is filled with illusions. You sail endlessly, forever lost in a phantom world.",
+        "children": []
+    },
+    {
+        "id": 37,
+        "title": "Right Fork (Win)",
+        "text": "The waterfalls are terrifying, but you manage to steer to safety. On the shore, the Heart of the World awaits.",
+        "children": []
+    },
+    {
+        "id": 38,
+        "title": "Cross the Bridge",
+        "text": "You cross the bridge carefully. Halfway across, it starts to snap.\n\nDash to safety, or try to balance your way across slowly?",
+        "children": [
+            46,
+            47
+        ]
+    },
+    {
+        "id": 39,
+        "title": "Find Another Way",
+        "text": "You find a fallen tree that acts as a natural bridge. It's narrow but stable.\n\nCross quickly, or set up a safety line?",
+        "children": [
+            48,
+            49
+        ]
+    },
+    {
+        "id": 40,
+        "title": "Follow the New Path (Win)",
+        "text": "The hidden path leads you swiftly to a forgotten temple. Inside rests the Heart of the World, untouched and waiting.",
+        "children": []
+    },
+    {
+        "id": 41,
+        "title": "Search the Grove (Fail)",
+        "text": "You stay to search the grove but awaken dangerous spirits. They drag you into a dreamscape from which you cannot escape.",
+        "children": []
+    },
+    {
+        "id": 42,
+        "title": "Dodge Forward (Win)",
+        "text": "You leap forward just in time, evading the traps. Ahead lies a hidden altar—and the Heart of the World.",
+        "children": []
+    },
+    {
+        "id": 43,
+        "title": "Retreat (Fail)",
+        "text": "As you retreat, the ruins collapse behind you, trapping you forever under stone.",
+        "children": []
+    },
+    {
+        "id": 44,
+        "title": "Fight the Serpent (Fail)",
+        "text": "The serpent is too strong. Despite your courage, it strikes you down.\n\nThe jungle remains undefeated.",
+        "children": []
+    },
+    {
+        "id": 45,
+        "title": "Sneak Past (Win)",
+        "text": "You silently creep past the serpent. Beyond it, a glittering cavern holds the Heart of the World.",
+        "children": []
+    },
+    {
+        "id": 46,
+        "title": "Dash to Safety (Win)",
+        "text": "You sprint across just as the bridge collapses behind you. Safe on the other side, you see the temple rising through the mist.",
+        "children": []
+    },
+    {
+        "id": 47,
+        "title": "Balance Carefully (Fail)",
+        "text": "Trying to balance, you lose footing and fall into the chasm.\n\nThe jungle claims another adventurer.",
+        "children": []
+    },
+    {
+        "id": 48,
+        "title": "Cross Quickly (Fail)",
+        "text": "Rushing across the tree trunk, you slip and fall into the river below, swept away forever.",
+        "children": []
+    },
+    {
+        "id": 49,
+        "title": "Set Up Safety Line (Win)",
+        "text": "Using vines, you make a secure line and cross safely. On the far bank, an ancient temple awaits.",
+        "children": []
+    }
+]
